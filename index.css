@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/2.jpg');
+        url('./images/3.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -610,6 +610,11 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+
+
+.btn--margin {
+  margin-top: 1rem; /* or margin-left if they are inline */
 }
 
 
